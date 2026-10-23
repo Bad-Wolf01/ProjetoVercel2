@@ -1,0 +1,11 @@
+:root {
+    --cor-principal:#585872;
+    --cor-alternativa: #FFE691;
+
+    --cor-do-texto: #262626;
+    --cor-do-texto-secundária: #FAFAFA;
+
+
+    --altura-do-header: 7.5vh;
+    --tamanho-do-footer: 15vh;
+}
