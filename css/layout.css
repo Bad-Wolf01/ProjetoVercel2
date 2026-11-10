@@ -1,4 +1,4 @@
-@import url(varibles.css);
+@import url(./variables.css);
  
 *{
     margin: 0px;
@@ -54,7 +54,7 @@ a{
 }
  
 .logoContainer img{
-    height: calc(var(--altura-header) -1vh)
+    height: calc(var(--altura-header) - 1vh)
 }
  
 .logoContainer:hover{

@@ -1,0 +1,72 @@
+@import url(layout.css);
+
+.cardapiotopo {
+    background-color: var(--cor-amarela);
+    text-align: center;
+    padding: calc(var(--altura-header) + 60px);
+}
+
+.cardapioTag {
+    background-color: var(--cor-branca);
+    color: var(--cor-vermelho);
+    font-weight: bold;
+
+    width: fit-content;
+    padding: 6px 16px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.cardapioTitulo {
+    color: var(--cor-vermelho);
+
+    font-family: "Fonte Titulo";
+    font-size: 56px;
+}
+
+.cardapioSubtitulo {
+    font-size: large;
+    margin: auto;
+}
+
+.cardapioConteudo {
+    display: flex;
+    width: 100%;
+    padding: 25px;
+}
+.categoria {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.listaCategorias {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.categoriaCabecalho {
+    border-bottom: 3px solid var(--cor-azul);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.listaItens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    width: calc(50% - 10px);
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+    border-left: 6px solid var(--cor-vermelho);
+    border-radius: 12px;
+}
